@@ -1,26 +1,29 @@
 // Variáveis
-let nomeHeroi = "Orion";
-let xpOrion = 7000;
-let nivelHeroi;
+let NomedoHeroi = "Orion";
+let Vitorias = 25;
+let Derrotas = 5;
+let LeveldoOrion = 900;
 
-// Estrutura de decisão
-if (xpOrion < 1000) {
-  nivelHeroi = "Ferro";
-} else if (xpOrion <= 2000) {
-  nivelHeroi = "Bronze";
-} else if (xpOrion <= 5000) {
-  nivelHeroi = "Prata";
-} else if (xpOrion <= 7000) {
-  nivelHeroi = "Ouro";
-} else if (xpOrion <= 8000) {
-  nivelHeroi = "Platina";
-} else if (xpOrion <= 9000) {
-  nivelHeroi = "Ascendente";
-} else if (xpOrion <= 10000) {
-  nivelHeroi = "Imortal";
-} else {
-  nivelHeroi = "Radiante";
+// Estruturas de decisão
+
+if (Vitorias < 10) {
+    LeveldoOrion = "Ferro";
 }
-// Exibição da mensagem
-console.log(`O Herói de nome ${Orion} está no nível de ${Ouro}`);
 
+if (Vitorias >= 11 && Vitorias <= 20) {
+    LeveldoOrion = "Bronze";
+}
+
+if (Vitorias >= 21 && Vitorias <= 50) {
+    LeveldoOrion = "Prata";
+}
+
+if (Vitorias >= 81 && Vitorias <= 90) {
+    LeveldoOrion = "Diamante";
+}
+
+if (Vitorias >= 101) {
+    LeveldoOrion = "Imortal";
+}
+
+console.log(`O Herói ${Orion} tem o saldo de ${900}, está no nível ${Imortal}`);
