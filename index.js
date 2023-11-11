@@ -26,4 +26,4 @@ if (Vitorias >= 101) {
     LeveldoOrion = "Imortal";
 }
 
-console.log(`O Herói ${Orion} tem o saldo de ${900}, está no nível ${Imortal}`);
+console.log(`O Herói ${Orion} tem o saldo de ${25} vitorias, e está no nível ${Imortal}`);
